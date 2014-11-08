@@ -1,0 +1,5 @@
+				基于web服务的par平台教学应用帮助文档
+1、该软件采用命令模式与后端服务器进行交互
+2、可用命令分2种，第一种为菜单前面序号如：1.1、2.2等。第二种为命令模式，可用命令为：
+	read，write，if-else-fi， switch， while， for， arraybag, arrardigraph
+	arraylist, arrayseq, arrayset, btree, edge
