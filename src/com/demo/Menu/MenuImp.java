@@ -18,6 +18,7 @@ public class MenuImp implements MenuInter {
 		ReadFile.ReadToMap(mp, "resources/cmdMap.txt");
 
 	}
+	
 	@Override
 	/*
 	 * (non-Javadoc)

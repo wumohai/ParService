@@ -59,22 +59,27 @@ public class AnalysisCommandImp implements AnalysisCommandInter {
 	public String fixCommand(String cmd) {
 		String retString = null;
 		int startIndex, endIndex;
+		if (cmd == null) {
+			Log.errlog("cmd is null " + Log.getLineInfo());
+			return null;
+		}
+		cmd = cmd.toLowerCase();
 		if (cmd.startsWith("image") || cmd.startsWith("document")
 				|| cmd.startsWith("component")) {
 			startIndex = cmd.indexOf("(");
 			endIndex = cmd.indexOf(")");
 			if (startIndex == -1 || endIndex == -1) {
-				Log.errlog("命令格式错误 " + Log.getLineInfo());
+				Log.errlog(cmd + " 命令格式错误 " + Log.getLineInfo());
 				return null;
 			}
 			cmd = cmd.substring(startIndex + 1, endIndex).trim();
-			System.out.println(cmd);
+			//System.out.println(cmd);
 		}
 
 		retString = cmdMP.get(cmd);
 		System.out.println(cmd);
 		if (retString == null) {
-			Log.errlog("命令不存在 " + Log.getLineInfo());
+			Log.errlog(cmd + " 命令不存在 " + Log.getLineInfo());
 		}
 		return retString;
 	}
