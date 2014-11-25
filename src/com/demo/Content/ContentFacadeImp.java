@@ -17,6 +17,7 @@ public class ContentFacadeImp implements ContentFacadeInter {
 	private Image image;
 	private Help help;
 	private Document document;
+	private Apla apla;
 
 	public ContentFacadeImp() {
 
@@ -25,6 +26,7 @@ public class ContentFacadeImp implements ContentFacadeInter {
 		image = new Image();
 		help = new Help();
 		document = new Document();
+		apla = new Apla();
 
 		// 根据命令读取命令对应需要读取的文件名，以及命令所属类型
 		String fileName = "resources/cmdFilenameMap.txt";
@@ -94,6 +96,17 @@ public class ContentFacadeImp implements ContentFacadeInter {
 			retContentBean = document.getDocument(cmdString, mp);
 			if (retContentBean == null) {
 				Log.errlog("get document error " + Log.getLineInfo());
+			}
+			return retContentBean;
+		}
+		else if (fileType.fileType.equalsIgnoreCase("apla")) {
+			/*
+			 * 表示请求apla内容。
+			 */
+			retContentBean = apla.getComponent(cmdString, mp);
+			if(retContentBean == null)
+			{
+				Log.errlog("get apla document error " + Log.getLineInfo());
 			}
 			return retContentBean;
 		}

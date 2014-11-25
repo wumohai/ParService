@@ -3,6 +3,10 @@ package com.demo.File;
 import java.io.*;
 import java.util.HashMap;
 
+import javax.swing.text.BadLocationException;
+import javax.swing.text.DefaultStyledDocument;
+import javax.swing.text.rtf.RTFEditorKit;
+
 public  class ReadFile {
 
 	/*
@@ -313,6 +317,31 @@ public  class ReadFile {
 			System.out.println(test[i]);
 		}
 	}
+	
+	public static String readRTF(String fileNameString)
+	{
+		String retString = null;
+		File file = new File(fileNameString);
+		RTFEditorKit rtf = new RTFEditorKit();
+		DefaultStyledDocument dsd = new DefaultStyledDocument();
+		try {  
+            rtf.read(new FileInputStream(file), dsd, 0);  
+            retString = new String(dsd.getText(0, dsd.getLength()));  
+            //System.out.println(ret);  
+        } catch (FileNotFoundException e) {  
+            // TODO Auto-generated catch block  
+            e.printStackTrace();  
+        } catch (IOException e) {  
+            // TODO Auto-generated catch block  
+            e.printStackTrace();  
+        } catch (BadLocationException e) {  
+            // TODO Auto-generated catch block  
+            e.printStackTrace();  
+        }  
+		return retString;
+	}
+	
+	
 	/*
 	 * 测试ReadFile类
 	 */
@@ -342,4 +371,5 @@ public  class ReadFile {
 
 	}
 
+	
 }
