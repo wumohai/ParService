@@ -40,8 +40,8 @@
       <constraint>
         <height>-1</height>
         <width>-1</width>
-        <x>264</x>
-        <y>237</y>
+        <x>146</x>
+        <y>153</y>
       </constraint>
       <sourceConnections/>
       <targetConnections>
@@ -73,8 +73,8 @@
             <constraint>
               <height>30</height>
               <width>100</width>
-              <x>299</x>
-              <y>175</y>
+              <x>181</x>
+              <y>91</y>
             </constraint>
             <sourceConnections>
               <net.java.amateras.uml.model.AnchorModel reference="../../.."/>

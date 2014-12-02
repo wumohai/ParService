@@ -40,8 +40,8 @@
       <constraint>
         <height>-1</height>
         <width>-1</width>
-        <x>536</x>
-        <y>351</y>
+        <x>491</x>
+        <y>460</y>
       </constraint>
       <sourceConnections/>
       <targetConnections>
@@ -73,8 +73,8 @@
             <constraint>
               <height>-1</height>
               <width>-1</width>
-              <x>527</x>
-              <y>92</y>
+              <x>482</x>
+              <y>201</y>
             </constraint>
             <sourceConnections>
               <net.java.amateras.uml.classdiagram.model.RealizationModel reference="../../.."/>
@@ -213,8 +213,8 @@
                   <constraint>
                     <height>-1</height>
                     <width>-1</width>
-                    <x>28</x>
-                    <y>208</y>
+                    <x>30</x>
+                    <y>386</y>
                   </constraint>
                   <sourceConnections>
                     <net.java.amateras.uml.classdiagram.model.AggregationModel reference="../../.."/>
@@ -356,8 +356,8 @@
                         <constraint>
                           <height>30</height>
                           <width>100</width>
-                          <x>153</x>
-                          <y>339</y>
+                          <x>104</x>
+                          <y>494</y>
                         </constraint>
                         <sourceConnections>
                           <net.java.amateras.uml.model.AnchorModel reference="../../.."/>
@@ -481,8 +481,8 @@
                   <constraint>
                     <height>-1</height>
                     <width>-1</width>
-                    <x>28</x>
-                    <y>20</y>
+                    <x>52</x>
+                    <y>117</y>
                   </constraint>
                   <sourceConnections>
                     <net.java.amateras.uml.classdiagram.model.AggregationModel reference="../../.."/>
@@ -606,8 +606,8 @@
                         <constraint>
                           <height>57</height>
                           <width>163</width>
-                          <x>127</x>
-                          <y>113</y>
+                          <x>82</x>
+                          <y>222</y>
                         </constraint>
                         <sourceConnections>
                           <net.java.amateras.uml.model.AnchorModel reference="../../.."/>
@@ -730,8 +730,8 @@
                   <constraint>
                     <height>-1</height>
                     <width>-1</width>
-                    <x>896</x>
-                    <y>157</y>
+                    <x>800</x>
+                    <y>265</y>
                   </constraint>
                   <sourceConnections>
                     <net.java.amateras.uml.classdiagram.model.AggregationModel reference="../../.."/>
@@ -837,8 +837,8 @@
                         <constraint>
                           <height>30</height>
                           <width>100</width>
-                          <x>1069</x>
-                          <y>219</y>
+                          <x>973</x>
+                          <y>327</y>
                         </constraint>
                         <sourceConnections>
                           <net.java.amateras.uml.model.AnchorModel reference="../../.."/>
@@ -961,8 +961,8 @@
                   <constraint>
                     <height>-1</height>
                     <width>-1</width>
-                    <x>896</x>
-                    <y>10</y>
+                    <x>800</x>
+                    <y>118</y>
                   </constraint>
                   <sourceConnections>
                     <net.java.amateras.uml.classdiagram.model.AggregationModel reference="../../.."/>
@@ -1068,8 +1068,8 @@
                         <constraint>
                           <height>30</height>
                           <width>100</width>
-                          <x>1089</x>
-                          <y>96</y>
+                          <x>993</x>
+                          <y>204</y>
                         </constraint>
                         <sourceConnections>
                           <net.java.amateras.uml.model.AnchorModel reference="../../.."/>
@@ -1206,8 +1206,8 @@
                   <constraint>
                     <height>-1</height>
                     <width>-1</width>
-                    <x>896</x>
-                    <y>290</y>
+                    <x>773</x>
+                    <y>393</y>
                   </constraint>
                   <sourceConnections>
                     <net.java.amateras.uml.classdiagram.model.AggregationModel reference="../../.."/>
@@ -1241,8 +1241,8 @@
                         <constraint>
                           <height>30</height>
                           <width>100</width>
-                          <x>1073</x>
-                          <y>359</y>
+                          <x>977</x>
+                          <y>467</y>
                         </constraint>
                         <sourceConnections>
                           <net.java.amateras.uml.model.AnchorModel reference="../../.."/>
@@ -1585,8 +1585,8 @@
             <constraint>
               <height>85</height>
               <width>158</width>
-              <x>309</x>
-              <y>374</y>
+              <x>264</x>
+              <y>483</y>
             </constraint>
             <sourceConnections>
               <net.java.amateras.uml.model.AnchorModel reference="../../.."/>
@@ -1616,7 +1616,7 @@
               <null/>
             </java.beans.PropertyChangeSupport>
           </listeners>
-          <visibility class="net.java.amateras.uml.classdiagram.model.Visibility$1" reference="../../../targetConnections/net.java.amateras.uml.classdiagram.model.RealizationModel/source/targetConnections/net.java.amateras.uml.classdiagram.model.AggregationModel/source/children/net.java.amateras.uml.classdiagram.model.OperationModel/visibility"/>
+          <visibility class="net.java.amateras.uml.classdiagram.model.Visibility$1"/>
           <name>getContent</name>
           <type>RetContentBean</type>
           <params>
