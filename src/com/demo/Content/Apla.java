@@ -73,7 +73,7 @@ public class Apla {
 		//retString = ReadFile.Readfile(filePathString);
 		retString = ReadFile.readRTF(filePathString);
 		if (retString == null) {
-			Log.errlog("Read apla  error " + Log.getLineInfo());
+			Log.errlog("Read apla  error filename:" + filePathString + "  " + Log.getLineInfo());
 			return null;
 		}
 		
