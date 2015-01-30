@@ -27,7 +27,7 @@ tree tree.java component
 treenode treenode.java component
 vertex vertex.java component
 vertexnode vertexnode.java component
-head head.jpg image
+head head.png image
 help help.txt help
 javawebservice Java中的WebService.pptx document
 Apla语言概述 Apla语言概述.rtf Apla
